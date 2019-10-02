@@ -1,0 +1,165 @@
+AdminPanel:
+  voidtospawn:
+    itemName: '&dVoid to Spawn'
+    itemLore:
+    - '&cThis is the &dVoid to Spawn'
+    - '&cConfiguration menu.'
+  metinstone:
+    itemName: '&bMetin Stone'
+    itemLore:
+    - '&cThis is the &bMetinStone'
+    - '&cConfiguration menu.'
+  chatEvent:
+    itemName: '&6Chat Event'
+    itemLore:
+    - '&cThis is the &6ChatEvent'
+    - '&cConfiguration menu.'
+  permantKit:
+    itemName: '&aPermant Kit'
+    itemLore:
+    - '&cThis is the &aPermantKit'
+    - '&cConfiguration menu.'
+  autoEvent:
+    itemName: '&3Auto Event'
+    itemLore:
+    - '&cThis is the &3AutoEvent'
+    - '&cConfiguration menu.'
+  contactDev:
+    itemName: '&bContact Dev'
+    itemLore:
+    - '&cYou can contact developer'
+    - '&cOn discord:'
+VoidToSpawn:
+  toggleFeature:
+    itemName: '&7Current: %cur%'
+    itemLore:
+    - '&7You can toggle the feature'
+    - '&7of Void To Spawn here.'
+  allowedWorlds:
+    itemName: '&dWorld List'
+    itemLore:
+    - '&aAllowed Worlds:'
+  setVoidSpawn:
+    itemName: '&aSet Void Spawn'
+    itemLore:
+    - '&7This setting set''s the'
+    - '&aSpawn &7for &dVoidToSpawn'
+AutoEventGui:
+  toggleFeature:
+    itemName: '&7Current: %cur%'
+    itemLore:
+    - '&7You can toggle the feature'
+    - '&7of Auto Event here.'
+  events:
+    itemName: '&3%id%'
+    itemLore:
+    - '&aTime: &7%time%'
+    - '&bCommand: &7%cmd%'
+  eventEditCMD:
+    itemName: '&4Settings'
+    itemLore:
+    - '%settings%'
+ChatEventGui:
+  toggleFeature:
+    itemName: '&7Current: %cur%'
+    itemLore:
+    - '&7You can toggle the feature'
+    - '&7of ChatEvent here.'
+  gameCooldown:
+    itemName: '&cGame Cooldown (min)'
+    itemLore:
+    - '&7Value: &c%val%'
+  gameLong:
+    itemName: '&6Game Duration'
+    itemLore:
+    - '&7Value: &6%val%'
+  gameChars:
+    itemName: '&bGame Chars'
+    itemLore:
+    - '&7Value: &a%val%'
+  wordLong:
+    itemName: '&9Word Long'
+    itemLore:
+    - '&7Value: &e%val%'
+  cmds:
+    itemName: '&2Command List'
+    itemLore:
+    - '&7Commands:'
+pKit:
+  toggleFeature:
+    itemName: '&7Current: %cur%'
+    itemLore:
+    - '&7You can toggle the feature'
+    - '&7of pKit here.'
+  cmds:
+    itemName: '&2Command List'
+    itemLore:
+    - '&7Commands:'
+MetinStone:
+  toggleFeature:
+    itemName: '&7Current: %cur%'
+    itemLore:
+    - '&7You can toggle the feature'
+    - '&7of MetinStone here.'
+  metinHealth:
+    itemName: '&cMetin Health'
+    itemLore:
+    - '&7Value: &c%val%'
+  metinRespawnCD:
+    itemName: '&bRespawn CD'
+    itemLore:
+    - '&7Value: &e%val%'
+  metinResAn:
+    itemName: '&dRespawn Announce'
+    itemLore:
+    - '&7This is toggle the'
+    - '&7Announce when metin arrive.'
+    - '&7Value: &2%cur%'
+  spawnMobEveryHP:
+    itemName: '&5Spawn MOB'
+    itemLore:
+    - '&7Click for enter MENU'
+  metinMaterial:
+    itemName: '&aMetin Material'
+    itemLore:
+    - '&7Value: &a%val%'
+  metinTopBreakin:
+    itemName: '&bTop Breaker Reward'
+    itemLore:
+    - '&7Commands:'
+  healthEvents:
+    itemName: '&9Health Events'
+    itemLore:
+    - '&7Do something on every'
+    - '&7Health percent.'
+  toggleMob:
+    itemName: '&bMob Spawning %cur%'
+    itemLore:
+    - '&7%mob% spawn setting.'
+  mobCount:
+    itemName: '&b%mob% Count'
+    itemLore:
+    - '&7Value. &b%val%.'
+  hpeventGui:
+     itemLore:
+     - '&bSettings:'
+Others:
+  goBack:
+    itemName: '&bGo Back!'
+    itemLore:
+    - '&7Return the old menu.'
+  worldList:
+    itemLore:
+    - '&cRemove it with'
+    - '&c&lDOUBLE CLICK'
+    - '&aFor safety'
+  addMoreData:
+    itemName: '&aAdd more variable'
+    itemLore:
+    - '&bClick for add more variable'
+    - '&bFor this menu.'
+  commands:
+    itemLore:
+    - '&cRemove it with'
+    - '&c&lDOUBLE CLICK'
+    - '&aFor safety'

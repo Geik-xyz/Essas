@@ -1,0 +1,20 @@
+name: Essas
+main: me.geik.essas.Main
+version: 1.0
+author: Geyik
+softdepend: [PlaceholderAPI]
+commands:
+  voidtospawn:
+    description: Set spawn for void.
+  pkit:
+    description: Take the kit of permenant.
+  autoevent:
+    description: Make autoevent with command again.
+  metinstone:
+    description: Set location for metinstone.
+  clear:
+    description: Clear chat all self or for a player
+  mutechat:
+    description: Mute chat for everyone
+  essas:
+    description: Main command

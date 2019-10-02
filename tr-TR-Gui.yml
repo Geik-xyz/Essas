@@ -1,0 +1,161 @@
+AdminPanel:
+  voidtospawn:
+    itemName: '&dBoşluktan Spawna'
+    itemLore:
+    - '&cBu &dBoşlukdan Spawna'
+    - '&cAyar menüsü.'
+  metinstone:
+    itemName: '&bMetin Stone'
+    itemLore:
+    - '&cBu &bMetinTaşı'
+    - '&cAyar menüsü.'
+  chatEvent:
+    itemName: '&6Chat Event'
+    itemLore:
+    - '&cBu &6Kelime Oyunu'
+    - '&cAyar menüsü.'
+  permantKit:
+    itemName: '&aPermant Kit'
+    itemLore:
+    - '&cBu &aAdaKit'
+    - '&cAyar menüsü.'
+  autoEvent:
+    itemName: '&3Auto Event'
+    itemLore:
+    - '&cBu &3OtoEvent'
+    - '&cAyar menüsü.'
+  contactDev:
+    itemName: '&bYapımcı'
+    itemLore:
+    - '&cYapımcıya ulaşmak için'
+    - '&cDiscord:'
+VoidToSpawn:
+  toggleFeature:
+    itemName: '&7Şu an: %cur%'
+    itemLore:
+    - '&7Buradan özelliği kapatıp/açabilirsin'
+  allowedWorlds:
+    itemName: '&dDünya Listesi'
+    itemLore:
+    - '&aAktif dünyalar:'
+  setVoidSpawn:
+    itemName: '&aBoşluk Spawnı belirle'
+    itemLore:
+    - '&7Bu ayar &dBoşluktan Spawna'
+    - '&aSpawn &7noktasını belirler'
+AutoEventGui:
+  toggleFeature:
+    itemName: '&7Şu an: %cur%'
+    itemLore:
+    - '&7Buradan özelliği kapatıp/açabilirsin'
+  events:
+    itemName: '&3%id%'
+    itemLore:
+    - '&aZaman: &7%time%'
+    - '&bKomut: &7%cmd%'
+  eventEditCMD:
+    itemName: '&4Ayarlar'
+    itemLore:
+    - '%settings%'
+ChatEventGui:
+  toggleFeature:
+    itemName: '&7Şu an: %cur%'
+    itemLore:
+    - '&7Buradan özelliği kapatıp/açabilirsin'
+  gameCooldown:
+    itemName: '&cOyun süresi (dakika)'
+    itemLore:
+    - '&7Değer: &c%val%'
+  gameLong:
+    itemName: '&6Oyunun süresi'
+    itemLore:
+    - '&aOyun ne kadar sürecek?'
+    - '&7Değer: &6%val%'
+  gameChars:
+    itemName: '&bKelimenin karakterleri'
+    itemLore:
+    - '&7Değer: &a%val%'
+  wordLong:
+    itemName: '&9Kelimenin uzunluğu'
+    itemLore:
+    - '&7Değer: &e%val%'
+  cmds:
+    itemName: '&2Komut Listesi'
+    itemLore:
+    - '&7Komutlar:'
+pKit:
+  toggleFeature:
+    itemName: '&7Şu an: %cur%'
+    itemLore:
+    - '&7Buradan özelliği kapatıp/açabilirsin'
+  cmds:
+    itemName: '&2Komut listesi'
+    itemLore:
+    - '&7Komutlar:'
+MetinStone:
+  toggleFeature:
+    itemName: '&7Şu an: %cur%'
+    itemLore:
+    - '&7Buradan özelliği kapatıp/açabilirsin'
+  metinHealth:
+    itemName: '&cMetinin Canı'
+    itemLore:
+    - '&7Değer: &c%val%'
+  metinRespawnCD:
+    itemName: '&bYeniden doğuşu (DK)'
+    itemLore:
+    - '&7Değer: &e%val%'
+  metinResAn:
+    itemName: '&dDoğuş Anonsu'
+    itemLore:
+    - '&7Metinin doğduğunda anons'
+    - '&7Yapılsın mı yapılmasın mı?'
+    - '&7Değer: &2%cur%'
+  spawnMobEveryHP:
+    itemName: '&5Yaratık çıkarma'
+    itemLore:
+    - '&7Menüye girmek için TIKLA'
+  metinMaterial:
+    itemName: '&aMetin Materyal'
+    itemLore:
+    - '&7Değer: &a%val%'
+  metinTopBreakin:
+    itemName: '&bEn çok kıran ödülü'
+    itemLore:
+    - '&7Komutlar:'
+  healthEvents:
+    itemName: '&9Can eventleri'
+    itemLore:
+    - '&7Belirli canlarda komut'
+    - '&7Ve yaratık doğurma MENUSU.'
+  toggleMob:
+    itemName: '&bYaratık doğumu %cur%'
+    itemLore:
+    - '&b%mob% &7Doğma ayarı.'
+  mobCount:
+    itemName: '&b%mob% Doğum adeti'
+    itemLore:
+    - '&7Değer. &b%val%.'
+  hpeventGui:
+     itemLore:
+     - '&bAyarlar:'
+Others:
+  goBack:
+    itemName: '&bGeri Dön!'
+    itemLore:
+    - '&7Eski menüye geri dön.'
+  worldList:
+    itemLore:
+    - '&aGüvenlik için'
+    - '&c&lIKI KERE TIKLAYARAK'
+    - '&cSilebilirsin.'
+  addMoreData:
+    itemName: '&aDaha fazla veri ekle'
+    itemLore:
+    - '&bDaha fazla veri eklemek için'
+    - '&bTIKLA.'
+  commands:
+    itemLore:
+    - '&aGüvenlik için'
+    - '&c&lIKI KERE TIKLAYARAK'
+    - '&cSilebilirsin.'

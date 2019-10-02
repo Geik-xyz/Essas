@@ -1,0 +1,119 @@
+lang: en-US
+updateChecker: true
+cancelMethod: 'cancel'
+debug-mode: false
+#############################################################
+#                                                           #
+#                       VoidToSpawn                         #
+#                                                           #
+#############################################################
+voidToSpawn:
+  teleportSpawn: true
+# Teleport player to spawn who fall into void.
+  allowedWorlds:
+    - world
+    - world_the_end
+# Allowed worlds for teleportation.
+#############################################################
+#                                                           #
+#                       PermanentKit                        #
+#                                                           #
+#############################################################
+permantKit:
+  enable-kit: true
+# Toggle permant kit usage.
+  kit-cmds:
+  - 'tm message %player% &4&LADAKIT\n&7Adakitin hayırlı olsun!'
+  - 'give %player% diamond 640'
+# Commands for permant kit.
+#############################################################
+#                                                           #
+#                       AutoEvent                           #
+#                                                           #
+#############################################################
+autoEvent:
+  events: true
+  # This setting change autoevent listen.
+  # You should restart server for change this setting.
+  first:
+    time: '00:00:00'
+    command: 'give Geyik diamond 1'
+  second:
+    time: '00:00:00'
+    command: 'give Geyik gold_ingot 1'
+  third:
+    time: '00:00:00'
+    command: 'give Geyik iron_ingot 1'
+  # You can able to have 3 event and only 1 command can run
+  # with this plugin. If you want to give everyone something.
+  # You can use giveall feature of this plugin.
+  # Time configuration working with your server time.
+#############################################################
+#                                                           #
+#                       MetinStone                          #
+#                                                           #
+#############################################################
+metin:
+  event: true
+  # Metin Stone feature enabled or disabled setting.
+  health: 20
+  # Health of metin stone?
+  respawn-cooldown: 1
+  # Metin stone respawn again after x amount of minute.
+  respawned-again-broadcast: true
+  # Broadcast when the stone respawning again.
+  spawn-mob-every-health:
+    enable: false
+    zombie: true
+    zombie-count: 1
+    skeleton: true
+    skeleton-count: 1
+  # Spawn mob when health decrease.
+  top-breaking-reward:
+  - 'give %player% diamond'
+  - ''
+  metin-material: 'SPONGE'
+  # Stone's material.
+  health-percent:
+    75:
+      spawn-mob: []
+      command:
+      - ''
+      - ''
+    50:
+      spawn-mob: []
+      command:
+      - ''
+      - ''
+    25:
+      spawn-mob:
+      - 'SKELETON,4'
+      command:
+      - ''
+      - ''
+    0:
+      spawn-mob:
+      - 'ZOMBIE,4'
+      command:
+      - ''
+      - ''
+# health-percent feature only support 75-50-25-0 percents.
+#############################################################
+#                                                           #
+#                       ChatEvent                           #
+#                                                           #
+#############################################################
+chat-event:
+  events: true
+  # Toggles chat event option.
+  gameCoolDown: 20
+  # This is cooldown for game repeat x minutes.
+  gameLong: 10
+  # This game will be long x seconds.
+  wordLong: 8
+  # How many character will be contain custom word.
+  chars: 'abcdefghijklmnopqrstuvyzwx1234567890ABCDEFGHIJKLMNOPQRSTUVYZWX'
+  # Custom word contain which characters.
+  reward:
+  - ''
+  - ''
